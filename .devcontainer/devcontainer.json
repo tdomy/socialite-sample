@@ -1,0 +1,16 @@
+{
+	"name": "socialite-sample",
+  "dockerComposeFile": [
+    "../docker-compose.yml",
+    "docker-compose.extend.yml"
+  ],
+  "service": "app",
+  "workspaceFolder": "/var/www/html",
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+	"extensions": [
+    "editorconfig.editorconfig"
+  ],
+  "shutdownAction": "stopCompose"
+}
