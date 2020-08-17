@@ -1,1 +1,48 @@
-//
+@charset "utf-8";
+@import "../../node_modules/bulma/bulma.sass";
+
+.social-buttons {
+  width: 260px;
+  margin: 0 auto;
+  text-align: center;
+
+  p {
+    font-size: 2rem;
+    color: #4a4a4a;
+  }
+}
+
+.social-login {
+  position: relative;
+  margin: 0.5em 0;
+  min-width: 200px;
+  padding-left: 1.8em;
+  padding-right: 0.6em;
+
+  img {
+    position: absolute;
+    top: 3px;
+    left: 1px;
+  }
+}
+
+.line {
+  background: #00C300;
+  color: white;
+}
+
+.line:hover,
+.line.is-hovered {
+  border-color: #00e000;
+  color: white;
+}
+
+.line:active,
+.line.is-active {
+  border-color: #00b300;
+  color: white;
+}
+
+.twitter {
+  background: #efefef;
+}
